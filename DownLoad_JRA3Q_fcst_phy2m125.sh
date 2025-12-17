@@ -11,7 +11,7 @@ do
     do
         # Construct the month_year string used in the base URL
         month_year="${year}${month}"
-        base_url="https://data.rda.ucar.edu/ds640.0/fcst_phy2m125/${month_year}"
+        base_url="https://osdf-director.osg-htc.org/ncar/gdex/d640000/fcst_phy2m125/${month_year}"
         
         # Define all variable codes and their respective GRIB variable names
         variables=(
